@@ -1,4 +1,8 @@
+
+
 ### Inicia un servidor en la carpeta
+
+# el modelo de red neuronal aun tiene un rengo de error medio con respecto al reconocimiento de la fase del compostage por  ello necesitar ser entranado con mas datos necesita 
 Este proyecto utiliza un modelo de Tensorflow.js, el cual para cargarse requiere que el acceso sea por medio de http/https.
 Para eso puedes usar cualquier servidor, pero aquí hay una forma de hacerlo:
 - Descarga Python en tu computadora
@@ -8,7 +12,7 @@ Para eso puedes usar cualquier servidor, pero aquí hay una forma de hacerlo:
 - Abre un explorador y ve a http://localhost:8000
 
 ### Utilizarlo en un celular
-Si quieres abrirlo en tu celular, no se puede solo poner la IP local de tu computadora y el puerto, ya que para usar la cámara se requiere HTTPS. Puedes hacer un túnel de HTTPS siguiendo los siguientes pasos
+
 - Descarga ngrok en tu computadora, y descomprímelo
 - Abre una línea de comandos o terminal
 - Navega hasta la carpeta donde descargaste ngrok
@@ -20,3 +24,6 @@ Si quieres abrirlo en tu celular, no se puede solo poner la IP local de tu compu
 
 ### Uso
 Puedes dar clic en el botón de "Cambiar camara" para utilizar la cámara delantera o trasera del celular. Solo apunta la cámara a una imagen de compostage o a uno real, y abajo te aparecerá la predicción. Tampoco es el clasificador del futuro entonces si no clasifica perfecto, oops.
+
+
+# estructura de este modelo
